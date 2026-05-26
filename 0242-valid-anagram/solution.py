@@ -4,5 +4,9 @@ class Solution:
         l2=list(t)
         l1.sort()
         l2.sort()
-        return l1==l2
+        if(l1==l2):
+            return True
+        else:
+            return False
+        
         
